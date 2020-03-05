@@ -1,29 +1,29 @@
 {
-  "name": "loopback-connector-soap",
-  "version": "5.1.0",
-  "description": "LoopBack SOAP Web Services Connector",
-  "engines": {
-    "node": ">=8.9"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha -R spec --timeout 60000 test/*test.js"
-  },
-  "dependencies": {
-    "debug": "^4.0.1",
-    "request": "^2.88.0",
-    "strong-soap": "^1.13.1",
-    "strong-globalize": "^4.1.2"
-  },
-  "devDependencies": {
-    "loopback": "^3.0.0",
-    "should": "^13.2.3",
-    "mocha": "^5.2.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/strongloop/loopback-connector-soap.git"
-  },
-  "copyright.owner": "IBM Corp.",
-  "license": "MIT"
+    "name": "@iphuong/loopback-connector-soap",
+    "version": "5.1.0",
+    "description": "LoopBack SOAP Web Services Connector",
+    "engines": {
+        "node": ">=8.9"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha -R spec --timeout 60000 test/*test.js"
+    },
+    "dependencies": {
+        "debug": "^4.0.1",
+        "request": "^2.88.0",
+        "strong-soap": "^1.13.1",
+        "strong-globalize": "^4.1.2"
+    },
+    "devDependencies": {
+        "loopback": "^3.0.0",
+        "should": "^13.2.3",
+        "mocha": "^5.2.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/strongloop/loopback-connector-soap.git"
+    },
+    "copyright.owner": "IBM Corp.",
+    "license": "MIT"
 }
